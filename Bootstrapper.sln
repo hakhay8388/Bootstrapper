@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bootstrapper.Boundary", "Bo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bootstrapper.Core", "Bootstrapper.Core\Bootstrapper.Core.csproj", "{25A3D380-BE04-4B1B-84B1-D563BDE9D8C5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bootstrapper", "Bootstrapper", "{846C8CEA-95E3-4E7D-AF88-519F89DE6D02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A56DE73-F4C9-49CC-B208-3104144E4FAF} = {846C8CEA-95E3-4E7D-AF88-519F89DE6D02}
+		{25A3D380-BE04-4B1B-84B1-D563BDE9D8C5} = {846C8CEA-95E3-4E7D-AF88-519F89DE6D02}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {27DDF5ED-700B-40EF-B0C0-6C3FB4AE3A8A}
