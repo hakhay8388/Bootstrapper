@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZZJJMYA3zPlkoqOEUJvLY3fWU3XcEeUZEy25JR/ci5xQ8Fk3+JIQwa/d6LO8c87xJi7NcgxRQOOrEmipJjjjxA==",
+  "success": true,
+  "projectFilePath": "H:\\VirtualStyle_Projects\\Clade\\Bootstrapper\\Bootstrapper.Boundary\\Bootstrapper.Boundary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VirtualStyle\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\VirtualStyle\\.nuget\\packages\\unity\\5.11.4\\unity.5.11.4.nupkg.sha512"
+  ],
+  "logs": []
+}
