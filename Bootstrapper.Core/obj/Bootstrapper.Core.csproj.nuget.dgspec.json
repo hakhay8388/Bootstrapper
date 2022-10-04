@@ -49,7 +49,7 @@
           "dependencies": {
             "Unity": {
               "target": "Package",
-              "version": "[5.11.4, )"
+              "version": "[5.11.10, )"
             }
           },
           "imports": [
@@ -121,31 +121,27 @@
           "dependencies": {
             "DotNetZip": {
               "target": "Package",
-              "version": "[1.15.0, )"
+              "version": "[1.16.0, )"
             },
             "EPPlus": {
               "target": "Package",
-              "version": "[5.7.2, )"
+              "version": "[6.0.8, )"
             },
-            "Microsoft.AspNetCore.Mvc.Abstractions": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
-            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+            "Microsoft.CodeAnalysis.CSharp": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[4.3.1, )"
             },
-            "SharpRaven": {
+            "Microsoft.CodeAnalysis.Common": {
               "target": "Package",
-              "version": "[2.4.0, )"
+              "version": "[4.3.1, )"
             },
-            "Unity": {
+            "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[5.11.4, )"
-            },
-            "log4net": {
-              "target": "Package",
-              "version": "[2.0.12, )"
+              "version": "[13.0.1, )"
             }
           },
           "imports": [

@@ -49,7 +49,7 @@
           "dependencies": {
             "Unity": {
               "target": "Package",
-              "version": "[5.11.4, )"
+              "version": "[5.11.10, )"
             }
           },
           "imports": [

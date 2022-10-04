@@ -1,0 +1,50 @@
+Time : 2022.10.04 19:03:23
+
+####################################################################################################
+
+Hata : ScriptInvoker compile errors : 
+ ID : CS0234 -> 'Forms' tür veya ad alanı adı 'System.Windows' ad alanında yok (bir derleme başvurunuz mu eksik?)
+
+
+####################################################################################################
+
+Time : 2022.10.04 19:03:33
+
+####################################################################################################
+
+Hata : ScriptInvoker compile errors : 
+ ID : CS0234 -> 'Forms' tür veya ad alanı adı 'System.Windows' ad alanında yok (bir derleme başvurunuz mu eksik?)
+
+
+####################################################################################################
+
+Time : 2022.10.04 19:08:34
+
+####################################################################################################
+
+Hata : ScriptInvoker compile errors : 
+ ID : CS1056 -> Beklenmeyen karakter: '`'
+ ID : CS1003 -> Sözdizimi hatası, ',' bekleniyor
+ ID : CS1003 -> Sözdizimi hatası, ',' bekleniyor
+ ID : CS0305 -> Genel tür 'cCoreService<TServiceContext>' kullanmak için 1 türü bağımsız değişkenler gerekir
+ ID : CS1721 -> 'CodeSnippetE172D0961A797D585F83CDBA91D521FF46182D5A' sınıfının birden çok temel sınıfı olamaz: 'cCoreService' ve 'cCoreServiceContext'
+ ID : CS1503 -> 1 bağımsız değişkeni: 'Bootstrapper.Core.nCore.cCoreServiceContext' öğesinden 'TServiceContext' öğesine dönüştürülemiyor
+
+
+####################################################################################################
+
+Time : 2022.10.04 19:12:54
+
+####################################################################################################
+
+Hata : ScriptInvoker compile errors : 
+ ID : CS1056 -> Beklenmeyen karakter: '`'
+ ID : CS1003 -> Sözdizimi hatası, ',' bekleniyor
+ ID : CS1003 -> Sözdizimi hatası, ',' bekleniyor
+ ID : CS0305 -> Genel tür 'cCoreService<TServiceContext>' kullanmak için 1 türü bağımsız değişkenler gerekir
+ ID : CS1721 -> 'CodeSnippetE172D0961A797D585F83CDBA91D521FF46182D5A' sınıfının birden çok temel sınıfı olamaz: 'cCoreService' ve 'cCoreServiceContext'
+ ID : CS1503 -> 1 bağımsız değişkeni: 'Bootstrapper.Core.nCore.cCoreServiceContext' öğesinden 'TServiceContext' öğesine dönüştürülemiyor
+
+
+####################################################################################################
+

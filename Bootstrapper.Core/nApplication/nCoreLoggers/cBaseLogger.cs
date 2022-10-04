@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using Bootstrapper.Core.nCore;
-using SharpRaven;
 
 namespace Bootstrapper.Core.nApplication.nCoreLoggers
 {

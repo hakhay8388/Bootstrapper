@@ -5,7 +5,6 @@ using Bootstrapper.Core.nAttributes;
 using Bootstrapper.Core.nCore;
 using Bootstrapper.Core.nExceptions;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc.Filters;
 using System;
 using System.Collections.Generic;
 using System.IO;

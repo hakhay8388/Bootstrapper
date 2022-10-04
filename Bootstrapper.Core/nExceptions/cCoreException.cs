@@ -12,7 +12,7 @@ namespace Bootstrapper.Core.nExceptions
         public cCoreException(nApplication.cApp _App, string _Message)
             : base(_Message)
         {
-            _App.Loggers.CoreLogger.LogError("Hata : {0}", StackTrace.ToString());
+            _App.Loggers.CoreLogger.LogError("Hata : {0}", _Message);
         }
     }
 }

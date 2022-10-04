@@ -1,0 +1,84 @@
+Time : 2022.10.04 18:32:12	Type  Bind : cStartup`1 -> cStartup`1  ,  Life : ContainerControlledLifetimeManager
+Time : 2022.10.04 18:32:12	Type  Bind : IScripting -> cScriptRunner  ,  Life : ContainerControlledLifetimeManager
+Time : 2022.10.04 18:32:12	ResolveInstance<T>() started : cStartup`1
+Time : 2022.10.04 18:32:12	ResolveInstance<T>() started : cStarter
+Time : 2022.10.04 18:32:12	ResolveInstance<T>() ended : cStarter
+Time : 2022.10.04 18:32:12	ResolveInstance<T>() ended : cStartup`1
+Time : 2022.10.04 18:32:12	ResolveInstance<T>() started : cTestObject
+Time : 2022.10.04 18:32:12	ResolveInstance<T>() ended : cTestObject
+Time : 2022.10.04 18:32:18	ResolveInstance<T>() started : cScripttingTest
+Time : 2022.10.04 18:32:18	ResolveInstance<T>() ended : cScripttingTest
+Time : 2022.10.04 18:33:34	ResolveInstance<T>() started : cCoreServiceContext
+Time : 2022.10.04 18:33:34	ResolveInstance<T>() ended : cCoreServiceContext
+Time : 2022.10.04 18:42:49	Type  Bind : cStartup`1 -> cStartup`1  ,  Life : ContainerControlledLifetimeManager
+Time : 2022.10.04 18:42:49	Type  Bind : IScripting -> cScriptRunner  ,  Life : ContainerControlledLifetimeManager
+Time : 2022.10.04 18:42:49	ResolveInstance<T>() started : cStartup`1
+Time : 2022.10.04 18:42:49	ResolveInstance<T>() started : cStarter
+Time : 2022.10.04 18:42:49	ResolveInstance<T>() ended : cStarter
+Time : 2022.10.04 18:42:49	ResolveInstance<T>() ended : cStartup`1
+Time : 2022.10.04 18:42:49	ResolveInstance<T>() started : cTestObject
+Time : 2022.10.04 18:42:49	ResolveInstance<T>() ended : cTestObject
+Time : 2022.10.04 18:42:52	ResolveInstance<T>() started : cScripttingTest
+Time : 2022.10.04 18:42:52	ResolveInstance<T>() ended : cScripttingTest
+Time : 2022.10.04 18:42:52	ResolveInstance<T>() started : cCoreServiceContext
+Time : 2022.10.04 18:42:52	ResolveInstance<T>() ended : cCoreServiceContext
+Time : 2022.10.04 18:45:41	Type  Bind : cStartup`1 -> cStartup`1  ,  Life : ContainerControlledLifetimeManager
+Time : 2022.10.04 18:45:41	Type  Bind : IScripting -> cScriptRunner  ,  Life : ContainerControlledLifetimeManager
+Time : 2022.10.04 18:45:41	ResolveInstance<T>() started : cStartup`1
+Time : 2022.10.04 18:45:42	ResolveInstance<T>() started : cStarter
+Time : 2022.10.04 18:45:42	ResolveInstance<T>() ended : cStarter
+Time : 2022.10.04 18:45:42	ResolveInstance<T>() ended : cStartup`1
+Time : 2022.10.04 18:45:42	ResolveInstance<T>() started : cTestObject
+Time : 2022.10.04 18:45:42	ResolveInstance<T>() ended : cTestObject
+Time : 2022.10.04 18:45:44	ResolveInstance<T>() started : cScripttingTest
+Time : 2022.10.04 18:45:44	ResolveInstance<T>() ended : cScripttingTest
+Time : 2022.10.04 18:45:44	ResolveInstance<T>() started : cCoreServiceContext
+Time : 2022.10.04 18:45:44	ResolveInstance<T>() ended : cCoreServiceContext
+Time : 2022.10.04 18:47:32	Type  Bind : cStartup`1 -> cStartup`1  ,  Life : ContainerControlledLifetimeManager
+Time : 2022.10.04 18:47:32	Type  Bind : IScripting -> cScriptRunner  ,  Life : ContainerControlledLifetimeManager
+Time : 2022.10.04 18:47:32	ResolveInstance<T>() started : cStartup`1
+Time : 2022.10.04 18:47:32	ResolveInstance<T>() started : cStarter
+Time : 2022.10.04 18:47:32	ResolveInstance<T>() ended : cStarter
+Time : 2022.10.04 18:47:32	ResolveInstance<T>() ended : cStartup`1
+Time : 2022.10.04 18:47:32	ResolveInstance<T>() started : cTestObject
+Time : 2022.10.04 18:47:32	ResolveInstance<T>() ended : cTestObject
+Time : 2022.10.04 18:47:34	ResolveInstance<T>() started : cScripttingTest
+Time : 2022.10.04 18:47:34	ResolveInstance<T>() ended : cScripttingTest
+Time : 2022.10.04 18:47:34	ResolveInstance<T>() started : cCoreServiceContext
+Time : 2022.10.04 18:47:34	ResolveInstance<T>() ended : cCoreServiceContext
+Time : 2022.10.04 18:52:29	Type  Bind : cStartup`1 -> cStartup`1  ,  Life : ContainerControlledLifetimeManager
+Time : 2022.10.04 18:52:29	Type  Bind : IScripting -> cScriptRunner  ,  Life : ContainerControlledLifetimeManager
+Time : 2022.10.04 18:52:29	ResolveInstance<T>() started : cStartup`1
+Time : 2022.10.04 18:52:29	ResolveInstance<T>() started : cStarter
+Time : 2022.10.04 18:52:29	ResolveInstance<T>() ended : cStarter
+Time : 2022.10.04 18:52:29	ResolveInstance<T>() ended : cStartup`1
+Time : 2022.10.04 18:52:29	ResolveInstance<T>() started : cTestObject
+Time : 2022.10.04 18:52:29	ResolveInstance<T>() ended : cTestObject
+Time : 2022.10.04 18:52:32	ResolveInstance<T>() started : cScripttingTest
+Time : 2022.10.04 18:52:32	ResolveInstance<T>() ended : cScripttingTest
+Time : 2022.10.04 18:52:32	ResolveInstance<T>() started : cCoreServiceContext
+Time : 2022.10.04 18:52:32	ResolveInstance<T>() ended : cCoreServiceContext
+Time : 2022.10.04 18:56:03	Type  Bind : cStartup`1 -> cStartup`1  ,  Life : ContainerControlledLifetimeManager
+Time : 2022.10.04 18:56:03	Type  Bind : IScripting -> cScriptRunner  ,  Life : ContainerControlledLifetimeManager
+Time : 2022.10.04 18:56:03	ResolveInstance<T>() started : cStartup`1
+Time : 2022.10.04 18:56:03	ResolveInstance<T>() started : cStarter
+Time : 2022.10.04 18:56:03	ResolveInstance<T>() ended : cStarter
+Time : 2022.10.04 18:56:03	ResolveInstance<T>() ended : cStartup`1
+Time : 2022.10.04 18:56:03	ResolveInstance<T>() started : cTestObject
+Time : 2022.10.04 18:56:03	ResolveInstance<T>() ended : cTestObject
+Time : 2022.10.04 18:56:05	ResolveInstance<T>() started : cScripttingTest
+Time : 2022.10.04 18:56:05	ResolveInstance<T>() ended : cScripttingTest
+Time : 2022.10.04 18:56:05	ResolveInstance<T>() started : cCoreServiceContext
+Time : 2022.10.04 18:56:05	ResolveInstance<T>() ended : cCoreServiceContext
+Time : 2022.10.04 18:57:13	Type  Bind : cStartup`1 -> cStartup`1  ,  Life : ContainerControlledLifetimeManager
+Time : 2022.10.04 18:57:13	Type  Bind : IScripting -> cScriptRunner  ,  Life : ContainerControlledLifetimeManager
+Time : 2022.10.04 18:57:13	ResolveInstance<T>() started : cStartup`1
+Time : 2022.10.04 18:57:13	ResolveInstance<T>() started : cStarter
+Time : 2022.10.04 18:57:13	ResolveInstance<T>() ended : cStarter
+Time : 2022.10.04 18:57:13	ResolveInstance<T>() ended : cStartup`1
+Time : 2022.10.04 18:57:13	ResolveInstance<T>() started : cTestObject
+Time : 2022.10.04 18:57:13	ResolveInstance<T>() ended : cTestObject
+Time : 2022.10.04 18:57:14	ResolveInstance<T>() started : cScripttingTest
+Time : 2022.10.04 18:57:14	ResolveInstance<T>() ended : cScripttingTest
+Time : 2022.10.04 18:57:14	ResolveInstance<T>() started : cCoreServiceContext
+Time : 2022.10.04 18:57:14	ResolveInstance<T>() ended : cCoreServiceContext

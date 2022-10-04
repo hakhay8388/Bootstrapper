@@ -13,7 +13,6 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Collections;
 using System.Text.RegularExpressions;
-using Ionic.Zip;
 using OfficeOpenXml;
 
 namespace Bootstrapper.Core.nHandlers.nExcelHandler

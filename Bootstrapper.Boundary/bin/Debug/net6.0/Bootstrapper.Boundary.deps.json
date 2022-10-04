@@ -8,25 +8,25 @@
     ".NETCoreApp,Version=v6.0": {
       "Bootstrapper.Boundary/1.0.0": {
         "dependencies": {
-          "Unity": "5.11.4"
+          "Unity": "5.11.10"
         },
         "runtime": {
           "Bootstrapper.Boundary.dll": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.5.2": {},
-      "Unity/5.11.4": {
+      "Unity/5.11.10": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "runtime": {
-          "lib/netcoreapp2.0/Unity.Abstractions.dll": {
-            "assemblyVersion": "5.11.4.0",
-            "fileVersion": "5.11.4.0"
+          "lib/netcoreapp3.0/Unity.Abstractions.dll": {
+            "assemblyVersion": "5.11.7.0",
+            "fileVersion": "5.11.7.0"
           },
-          "lib/netcoreapp2.0/Unity.Container.dll": {
-            "assemblyVersion": "5.11.5.0",
-            "fileVersion": "5.11.5.0"
+          "lib/netcoreapp3.0/Unity.Container.dll": {
+            "assemblyVersion": "5.11.11.0",
+            "fileVersion": "5.11.11.0"
           }
         }
       }
@@ -45,12 +45,12 @@
       "path": "system.runtime.compilerservices.unsafe/4.5.2",
       "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
     },
-    "Unity/5.11.4": {
+    "Unity/5.11.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-92605bIUMalRwCqyGX5uno6MEyyiVIt5P5zPxJYFs9iMe8Ktn9liSGXHNeN60x1iuyNdx/RlqwCuFHL7a6M+ZA==",
-      "path": "unity/5.11.4",
-      "hashPath": "unity.5.11.4.nupkg.sha512"
+      "sha512": "sha512-B4+Ps3oqI78hJ+dAFsJhPkJT6qycsNExgLbtw7CEHSzKc2ac3YyUR8SHQ+ZyTwld/y5IbDx/aNOHnKE9Em1zWA==",
+      "path": "unity/5.11.10",
+      "hashPath": "unity.5.11.10.nupkg.sha512"
     }
   }
 }

@@ -23,6 +23,11 @@ namespace Bootstrapper.Core.nApplication.nConfiguration
         public string DefaultDataPath { get; set; }
         public string ConfigurationDataPath { get; set; }
 
+        public string ScriptPath { get; private set; }
+        public string ScriptCachePath { get; private set; }
+        public string ScriptDebugSourcePath { get; private set; }
+
+
         public EBootType BootType { get; set; }
 
 
@@ -64,6 +69,7 @@ namespace Bootstrapper.Core.nApplication.nConfiguration
         {
             BootType = _BootType;
             StartParameterController = new cStartParameterController(this);
+            InitDefault();
         }
 
         public override void Init()
@@ -76,7 +82,10 @@ namespace Bootstrapper.Core.nApplication.nConfiguration
             App.Handlers.FileHandler.MakeDirectory(App.Configuration.DefaultDataPath, true);
             App.Handlers.FileHandler.MakeDirectory(App.Configuration.ConfigurationDataPath, true);
 
-		}
+            App.Handlers.FileHandler.MakeDirectory(App.Configuration.ScriptCachePath, true);
+            App.Handlers.FileHandler.MakeDirectory(App.Configuration.ScriptDebugSourcePath, true);
+
+        }
 
         public void InitDefault()
         {
@@ -128,7 +137,18 @@ namespace Bootstrapper.Core.nApplication.nConfiguration
             DefaultDataPath = Path.Combine(HomePath, DefaultDataPath);
 
             ConfigurationDataPath = GetVariableName(() => ConfigurationDataPath);
-            ConfigurationDataPath = Path.Combine(HomePath, ConfigurationDataPath); 
+            ConfigurationDataPath = Path.Combine(HomePath, ConfigurationDataPath);
+
+
+
+            ScriptPath = GetVariableName(() => ScriptPath);
+            ScriptCachePath = GetVariableName(() => ScriptCachePath);
+
+            ScriptCachePath = Path.Combine(HomePath, ScriptPath, ScriptCachePath);
+            ScriptDebugSourcePath = GetVariableName(() => ScriptDebugSourcePath);
+
+            ScriptDebugSourcePath = Path.Combine(HomePath, ScriptPath, ScriptDebugSourcePath);
+            ScriptPath = Path.Combine(HomePath, ScriptPath);
 
 
         }
