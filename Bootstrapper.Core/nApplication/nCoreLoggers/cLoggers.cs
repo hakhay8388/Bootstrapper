@@ -1,4 +1,5 @@
 using Bootstrapper.Core.nApplication.nCoreLoggers.nCoreLogger;
+using Bootstrapper.Core.nApplication.nCoreLoggers.nRequestPerformanceLogger;
 using Bootstrapper.Core.nApplication.nCoreLoggers.nSqlLogger;
 using Bootstrapper.Core.nAttributes;
 using Bootstrapper.Core.nCore;
@@ -16,14 +17,18 @@ namespace Bootstrapper.Core.nApplication.nCoreLoggers
 
         public cCoreSqlLogger SqlLogger { get; set; }
 
+        public cCoreRequestPerformanceLogger RequestPerformanceLogger { get; set; }
 
-		public cLoggers(cApp _App)
+
+        public cLoggers(cApp _App)
             :base(_App)
         {
             CoreLogger = new cCoreLogger(_App);
             SqlLogger = new cCoreSqlLogger(_App);
+            RequestPerformanceLogger = new cCoreRequestPerformanceLogger(_App);
 
-		}
+
+        }
 
         public override void Init()
         {
@@ -31,6 +36,8 @@ namespace Bootstrapper.Core.nApplication.nCoreLoggers
 
             CoreLogger.Init();
             SqlLogger.Init();
-		}
+            RequestPerformanceLogger.Init();
+
+        }
     }
 }

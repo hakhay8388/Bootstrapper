@@ -38,6 +38,7 @@ namespace Bootstrapper.Core.nApplication.nConfiguration
         public bool LogExceptionEnabled { get; private set; }
         public bool LogExecutedSqlEnabled { get; set; }
         public bool LogGeneralEnabled { get; set; }
+        public bool LogMicroServicePerformanceEnabled { get; set; }
 
 
         public CultureInfo UICulture
@@ -60,11 +61,12 @@ namespace Bootstrapper.Core.nApplication.nConfiguration
 		public string LogPath { get; private set; }
 		public string GeneralLogPath { get; private set; }
 		public string ExecutedSqlLogPath { get; private set; }
+        public string MicroServicePerformanceLogPath { get; private set; }
 
 
 
 
-		public cConfiguration(EBootType _BootType)
+        public cConfiguration(EBootType _BootType)
             :base(null)
         {
             BootType = _BootType;
@@ -77,11 +79,9 @@ namespace Bootstrapper.Core.nApplication.nConfiguration
             base.Init();
             App.Handlers.FileHandler.MakeDirectory(App.Configuration.GeneralLogPath, true);
             App.Handlers.FileHandler.MakeDirectory(App.Configuration.ExecutedSqlLogPath, true);
-
-
+            App.Handlers.FileHandler.MakeDirectory(App.Configuration.MicroServicePerformanceLogPath, true);
             App.Handlers.FileHandler.MakeDirectory(App.Configuration.DefaultDataPath, true);
             App.Handlers.FileHandler.MakeDirectory(App.Configuration.ConfigurationDataPath, true);
-
             App.Handlers.FileHandler.MakeDirectory(App.Configuration.ScriptCachePath, true);
             App.Handlers.FileHandler.MakeDirectory(App.Configuration.ScriptDebugSourcePath, true);
 
@@ -112,6 +112,7 @@ namespace Bootstrapper.Core.nApplication.nConfiguration
             ///////// Hangi loger mekanizmaları aktif olsun //////
             LogExecutedSqlEnabled = true;
             LogGeneralEnabled = true;
+            LogMicroServicePerformanceEnabled = true;
             /////////////////////////////////////////////////
 
 
@@ -132,6 +133,9 @@ namespace Bootstrapper.Core.nApplication.nConfiguration
 
             ExecutedSqlLogPath = GetVariableName(() => ExecutedSqlLogPath);
             ExecutedSqlLogPath = Path.Combine(LogPath, ExecutedSqlLogPath);
+
+            MicroServicePerformanceLogPath = GetVariableName(() => MicroServicePerformanceLogPath);
+            MicroServicePerformanceLogPath = Path.Combine(LogPath, MicroServicePerformanceLogPath);
 
             DefaultDataPath = GetVariableName(() => DefaultDataPath);
             DefaultDataPath = Path.Combine(HomePath, DefaultDataPath);

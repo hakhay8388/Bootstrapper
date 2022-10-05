@@ -2209,7 +2209,8 @@
       "Microsoft.AspNetCore.Http.Abstractions >= 2.2.0",
       "Microsoft.CodeAnalysis.CSharp >= 4.3.1",
       "Microsoft.CodeAnalysis.Common >= 4.3.1",
-      "Newtonsoft.Json >= 13.0.1"
+      "Newtonsoft.Json >= 13.0.1",
+      "Unity >= 5.11.10"
     ]
   },
   "packageFolders": {
@@ -2287,6 +2288,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.1, )"
+          },
+          "Unity": {
+            "target": "Package",
+            "version": "[5.11.10, )"
           }
         },
         "imports": [
