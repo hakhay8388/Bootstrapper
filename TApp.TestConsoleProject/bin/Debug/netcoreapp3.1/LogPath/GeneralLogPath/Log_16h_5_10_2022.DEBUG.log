@@ -1,0 +1,17 @@
+Time : 2022.10.05 16:32:18	Type  Bind : cStartup`1 -> cStartup`1  ,  Life : ContainerControlledLifetimeManager
+Time : 2022.10.05 16:32:18	Type  Bind : IScripting -> cScriptRunner  ,  Life : ContainerControlledLifetimeManager
+Time : 2022.10.05 16:32:18	Type  Bind : IScripting -> cTestScriptRunner  ,  Life : ContainerControlledLifetimeManager
+Time : 2022.10.05 16:32:18	ResolveInstance<T>() started : cStartup`1
+Time : 2022.10.05 16:32:18	ResolveInstance<T>() started : cStarter
+Time : 2022.10.05 16:32:18	ResolveInstance<T>() ended : cStarter
+Time : 2022.10.05 16:32:18	ResolveInstance<T>() ended : cStartup`1
+Time : 2022.10.05 16:32:18	ResolveInstance<T>() started : cTestObject
+Time : 2022.10.05 16:32:18	ResolveInstance<T>() ended : cTestObject
+Time : 2022.10.05 16:32:18	ResolveInstance<T>() started : cScripttingTest
+Time : 2022.10.05 16:32:18	ResolveInstance<T>() ended : cScripttingTest
+Time : 2022.10.05 16:32:21	ResolveInstance<T>() started : cScriptTesterClass
+Time : 2022.10.05 16:32:21	ResolveInstance<T>() ended : cScriptTesterClass
+Time : 2022.10.05 16:32:21	ResolveInstance<T>() started : CodeSnippetE172D0961A797D585F83CDBA91D521FF46182D5A
+Time : 2022.10.05 16:32:21	ResolveInstance<T>() ended : CodeSnippetE172D0961A797D585F83CDBA91D521FF46182D5A
+Time : 2022.10.05 16:32:21	ResolveInstance<T>() started : CodeSnippet3B1AED727F4FA6DA827224B7E7E4680632B14C03
+Time : 2022.10.05 16:32:21	ResolveInstance<T>() ended : CodeSnippet3B1AED727F4FA6DA827224B7E7E4680632B14C03

@@ -5,6 +5,7 @@ using Bootstrapper.Core.nApplication.nConfiguration;
 using Bootstrapper.Core.nApplication.nFactories;
 using TApp.TestConsoleProject.nHookedObject;
 using TApp.TestConsoleProject.nScripttingTest;
+using System;
 
 namespace TApp.TestConsoleProject
 {

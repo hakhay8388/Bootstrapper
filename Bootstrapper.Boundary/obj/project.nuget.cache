@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "oYUCG1Tl7rYxkIiPNKIfOSFUmu4wbOuLL92cOv+SXu3wQSSeN/4HlbSDRfKQ7c+FGCeG1maCoHr6OsBgEymQEw==",
+  "dgSpecHash": "ZkGfAFNdPGw3lXPE6nse71WzHo4/MrSnvGjsCHIeHcgdrOlIIPY/BjeWvcgc2GSxLbmJLdqQSl1J3hGz/sJEiQ==",
   "success": true,
   "projectFilePath": "H:\\VirtualStyle_Projects\\Clade\\Bootstrapper\\Bootstrapper.Boundary\\Bootstrapper.Boundary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VirtualStyle\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
-    "C:\\Users\\VirtualStyle\\.nuget\\packages\\unity\\5.11.10\\unity.5.11.10.nupkg.sha512"
+    "C:\\Users\\VirtualStyle\\.nuget\\packages\\unity\\5.11.10\\unity.5.11.10.nupkg.sha512",
+    "C:\\Users\\VirtualStyle\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\VirtualStyle\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\VirtualStyle\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
   ],
   "logs": []
 }
